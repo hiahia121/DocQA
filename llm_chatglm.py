@@ -29,7 +29,7 @@ class ChatGLM(LLM):
         })
         print("ChatGLM question:",prompt)
         # 调用api
-        response = requests.post("http://192.168.44.18:8000",headers=headers,data=data)
+        response = requests.post("{ip}:{port}",headers=headers,data=data)
                 # print("ChatGLM resp:",response)
         if response.status_code!=200:
           return "查询结果错误"
