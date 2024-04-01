@@ -37,7 +37,6 @@ Jinja2==3.1.2
 jsonschema==4.17.3
 langchain==0.0.209
 langchainplus-sdk==0.0.17
-llama-cpp-python==0.1.65
 lz4==4.3.2
 markdown-it-py==3.0.0
 MarkupSafe==2.1.3
